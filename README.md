@@ -1,32 +1,32 @@
 # RegressionMiniProject
-## กลุ่มสมาชิก หมู่ 200
+## กลุ่มสมาชิก หมู่ 200 (Member Section 200)
 1. นาย ศิวกร ภาสว่าง 6410451423 ( หัวหน้ากลุ่ม )
 2. นาย นิสิต นะมิตร 6410451148
 3. นาย พีรสิษฐ์ พลอยอร่าม 6410451237
 
-## เกี่ยวกับชุดข้อมูลตัวอย่าง
+## เกี่ยวกับชุดข้อมูลตัวอย่าง (About Apples Dataset)
 ชุดข้อมูลตัวอย่างที่ได้เป็น**ปริมาณของแอปเปิ้ลในแต่ละวันที่มี 3 สายพันธุ์**โดยมีการเก็บคอลัมน์ดังนี้
 - วันที่เก็บแอปเปิ้ล ( Date )
-- ปริมาณของแอปเปิ้ลสายพันธุ์ Envi ( Envi )
-- ปริมาณของแอปเปิ้ลสายพันธุ์ Fuji ( Fuji )
-- ปริมาณของแอปเปิ้ลสายพันธุ์ Gala ( Gala )
-- ภูมิภาค/ประเทศ ( region )  
+- ปริมาณของแอปเปิ้ลสายพันธุ์ Envi ( Number of Envi apples)
+- ปริมาณของแอปเปิ้ลสายพันธุ์ Fuji ( Number of Fuji apples )
+- ปริมาณของแอปเปิ้ลสายพันธุ์ Gala ( Number of Gala apples )
+- ภูมิภาค/ประเทศ ( Region )  
 
-ในกาทดลองนี้ผู้ทดลองได้เลือกชุดข้อมูลตัวอย่างของประเทศอังกฤษในการสร้างโมเดลด้วย AI Algorithm
+ในกาทดลองนี้ผู้ทดลองได้เลือกชุดข้อมูลตัวอย่างของประเทศอังกฤษในการสร้างโมเดลด้วย AI Algorithm (Pefer apple dataset in UK for making models)
 
-## การสร้างโมเดลด้วย AI Algorithm
-ผู้ทดลองได้เลือก AI Algorithm มา 3 วิธีการได้แก่
+## การสร้างโมเดลด้วย AI Algorithm (How to make model by AI Algorithm)
+ผู้ทดลองได้เลือก AI Algorithm มา 3 วิธีการได้แก่ (Using 3 Algorithm)
 - BaseLine Algorithm
 - Linear Regression Algorithm
 - Gradient Boosting Regression Algorithm
 
-## การวัดหาค่าประสิทธิภาพของแต่ละโมเดล
+## การวัดหาค่าประสิทธิภาพของแต่ละโมเดล (Using Performances)
 - Mean Absolute Error : MAE ( ใช้ค่าดังกล่าวเป็นหลักเนื่องจากชุดข้อมูลตัวอย่างมีค่าที่ต่างกันมาก )
 - Mean Square Error : MSE
 - Mean Absolute Percentage Error : MAPE
 - R2 Score
 
-## โครงสร้างของไฟล์
+## โครงสร้างของไฟล์ (File Structure)
  RegressionMiniProject (เก็บข้อมูลเกี่ยวกับ project)
   - DataSet (เก็บข้อมูลไฟล์แอปเปิ้ลและจำแนกสายพันธุ์)
      - Envi ( แฟ้มที่เก็บการสร้างชุดข้อมูลตัวอย่างของ Envi )
